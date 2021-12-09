@@ -1,0 +1,58 @@
+@import url('https://fonts.googleapis.com/css2?family=Lora&family=Nanum+Gothic&display=swap');
+
+body{
+    font-family: 'Lora', sans-serif;
+}
+
+a>h1{
+    color:black !important;
+    text-align: center;
+}
+
+.flex-container{
+    display: flex;
+    justify-content: center;
+    align-self: center;
+}
+
+#submit{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* width:  40%; */
+}
+
+input, textarea{
+    margin-bottom:8px;
+    width: 250px;
+    border: none;
+    font-family: 'Lora', sans-serif;
+    font-size: larger;
+}
+
+button{
+    margin-top: 5px;
+    border-radius: 15px;
+    font-family: 'Lora', sans-serif;
+}
+
+ul:hover{
+    cursor: pointer;
+}
+li{
+    list-style: none;
+}
+
+li:first-child{
+    font-weight: bolder;
+    font-size: larger;
+    margin-bottom: 5px;
+}
+
+li:last-child{
+    color: grey;
+}
+
+a{
+    text-decoration: none;
+}
